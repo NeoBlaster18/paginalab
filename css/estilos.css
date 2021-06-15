@@ -18,7 +18,7 @@ body{
 
 .titulo{
     color: #ed1c24;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -65,15 +65,17 @@ header .textos-header{
 }
 
 .textos-header h1{
-    font-size: 50px;
+    font-size: 80px;
     color: #fff;
 }
 
 .textos-header h2{
+    font-family: "Open Sans";
     font-size: 30px;
     font-weight: 300;
     color: #fff;
 }
+
 
 .wave{
     position: absolute;
@@ -89,8 +91,8 @@ header .textos-header{
 }
 
 .imagen-about-us{
-    width: 50%;
-    height: 300px;
+    width: 40%;
+    height: 400px;
 }
 
 .sobre-nosotros .contenido-texto{
@@ -166,11 +168,11 @@ header .textos-header{
 
 .hover-galeria img{
     width: 50px;
-
 }
 
 .hover-galeria p{
     color: #fff;
+    font-family: "Open Sans";
 }
 
 .imagen-menu:hover .hover-galeria{
@@ -245,7 +247,7 @@ header .textos-header{
 .servicio-ind p{
     font-family: "Open Sans";
     font-weight: 300;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Footer */
@@ -361,6 +363,32 @@ footer{
 
     .servicio-ind img{
         width: 90%;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border:none;
+    }
+
+    .content-foot{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foot h4{
+        border:none;
+    }
+
+    .content-foot p{
+        color:#fff;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
     }
 }
 
